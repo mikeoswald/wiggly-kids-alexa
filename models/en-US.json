@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "wiggly kids",
+      "intents": [
+        {
+          "name": "PlayAudio",
+          "samples": [
+            "play",
+            "start",
+            "play wiggly kids",
+            "play wiggly kids please",
+            "start wiggly kids",
+            "start wiggly kids please",
+            "start the wiggly kids",
+            "start the wiggly kids please",
+            "play the wiggly kids",
+            "play the wiggly kids please",
+            "start the wiggly kids",
+            "start the wiggly kids please",
+            "play the wiggly kids",
+            "play the wiggly kids please"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent"
+        },
+        {
+          "name": "AMAZON.ResumeIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me please",
+            "help please",
+            "what should i do",
+            "what's next",
+            "tell me how to play",
+            "tell me how to stop",
+            "tell me how to resume",
+            "how to stop"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        },
+        {
+          "name": "AMAZON.StartOverIntent"
+        }
+      ]
+    }
+  }
+}
